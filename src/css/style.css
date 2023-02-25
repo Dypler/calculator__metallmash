@@ -1,0 +1,88 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.title {
+  text-align: center;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-auto-rows: 320px;
+  column-gap: 30px;
+  
+}
+.wpapper__item {
+  border: 2px solid rgb(254, 254, 254);
+  border-radius: 10px;
+}
+.calc__title {
+  text-align: center;
+}
+.calc__form {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.calc__input {
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  padding-left: 10px;
+}
+.calc__btn {
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
+ 
+  height: 35px;
+  background-color:rgb(237, 19, 19);
+  border-radius: 5px;
+  transition: 0.3s;
+  color: white;
+}
+.calc__btn:hover {
+  transition: 0.3s;
+  background-color:rgb(232, 80, 80);
+}
+.calc__itog {
+  color: white;
+}

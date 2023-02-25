@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width:960px;
+        margin: 0 auto;
+    }
+    .wrapper {
+        display: grid;
+        justify-content: center;
+        margin: 10px;
+        grid-template-columns: repeat(1, 370px);
+        grid-auto-rows: 320px;
+        column-gap: 30px;
+        row-gap: 20px;
+        
+      }
+
+}
+@media (max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+}

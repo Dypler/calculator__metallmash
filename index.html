@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+
+      <div class="container">
+        <h1 class="title">Тестовый калькулятор</h1>
+        <div class="wrapper">
+          <div class="wpapper__item">
+            <p class="calc__title">Бруски, Плиты, Пластины</p>
+            <form class="calc__form" action="#" id="pryamougol">
+              <label>Ширина мм.</label>
+              <input id="width" class="calc__input" type="text" name="width1" >
+              <label for="long1">Длинна мм.</label>
+              <input  id="long" class="calc__input" type="text" name="long1">
+              <label for="height">Высота мм.</label>
+              <input id="height" class="calc__input" type="text" name="height1" >
+              <button class="calc__btn"  type="button" id="btn">Рассчитать массу</button>
+              <div id class="calculating__result">Сталь: <span id="steel"> </span> кг</div>
+              <div id class="calculating__result">Чугун: <span id="castiron"> </span> кг</div>
+
+            </form>
+          </div>
+          <div class="wpapper__item">
+            <p class="calc__title">Валы, Диски</p>
+            <form class="calc__form" action="#" id="circle">
+              <label for="long2">Диаметр мм.</label>
+              <input class="calc__input" type="text"  id="circle__long">
+              <label for="height2">Высота мм.</label>
+              <input class="calc__input" type="text" name="height2" id="circle__height">
+              <button class="calc__btn" type="button" id="circle_btn">Рассчитать массу</button>
+              <div id class="calculating__result">Бра: <span id="circle_bra"> </span> кг</div>
+              <div id class="calculating__result">Чугун: <span id="circle_castiron"> </span> кг</div>
+            </form>
+          </div>
+          <div class="wpapper__item">
+            <p class="calc__title">Кольца раскатные , Трубы</p>
+            <form class="calc__form" action="#" id="ring">
+              <label for="width3">D внеш мм.</label>
+              <input class="calc__input" type="text" name="width3" id="ring_width">
+              <label for="long3">d внутр мм.</label>
+              <input class="calc__input" type="text" name="long3" id="ring_long">
+              <label for="height3">высота мм.</label>
+              <input class="calc__input" type="text" name="height3" id="ring_height">
+              <button class="calc__btn" type="button" id="ring_btn">Рассчитать массу</button>
+              <div class="calc__itog" >Бра: <span id="ring_bra"> </span> кг</div>
+              <div class="calc__itog">Чугун: <span id="ring_castiron"> </span> кг</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
